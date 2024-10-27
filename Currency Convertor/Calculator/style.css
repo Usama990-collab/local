@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main {
+    height: 550px;
+    width: 450px;
+    background-color: darkslategray;
+    border: 2px black solid;
+    border-radius: 30px;
+}
+
+.screen {
+    height: 90px;
+    width: 400px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.input {
+    height: 90px;
+    width: 400px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: right;
+}
+
+#buttons {
+    height: 400px;
+    width: 450px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    top: 25px;
+    right: 10px;
+}
+
+.btn {
+    height: 70px;
+    width: 75px;
+    margin-top: 15px;
+    margin-left: 18px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 700;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #d3d3d3;
+}
+
+#btnequal{
+    height: 50px;
+    width: 150px;
+}
