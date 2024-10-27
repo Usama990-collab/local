@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Currency Convertor</title>
+</head>
+<body>
+    <div id="container">
+        <h2>Currency Convertor</h2>
+
+        <form>
+            <div id="input">
+                <p>Enter Amount</p>
+                 <input value="1"  type="text">
+            </div>
+            
+            <div id="convertorcontainer">
+                <div id="from">
+                   <p>From</p>
+                    <div class="imgcon">
+                       <img src="https://flagsapi.com/US/flat/64.png">
+                      <select name="from">
+                        //Options have been added through JS
+                     <!-- <option id="USD">USD</option>
+                     <option id="PKR">PKR</option>
+                     <option id="AED">AED</option>
+                     <option id="SAR">SAR</option> -->
+                      </select>
+                   </div>
+                </div>
+                  <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                <div id="to">
+                    <p>To</p>
+                    <div class="imgcon">
+                        <img src="https://flagsapi.com/PK/flat/64.png">
+                       <select name="to">
+                        <!-- <option id="PKR">PKR</option>
+                      <option id="USD">USD</option>
+                      <option id="AED">AED</option>
+                      <option id="SAR">SAR</option> -->
+                       </select>
+                    </div>
+                 </div>
+  
+            </div>
+
+            <div id="msg">IUSD=279PKR</div>
+
+            <button id="btn">Get Exchange Rate</button>
+            
+        </form>  
+
+    </div>
+<script src="codes.js"></script>
+<script src="convertor.js"></script>
+
+</body>
+</html>
