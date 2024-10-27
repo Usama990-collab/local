@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+}
+
+#main {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    border: 5px solid white;
+    background-color: #44474a;
+    border-radius: 50%;
+}
+
+.digits {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+
+/* Adjusted positions */
+#hr12 { top: 20px; left: 225px; }   /* 12 o'clock */
+#hr1  { top: 65px; left: 330px; }   /* 1 o'clock */
+#hr2  { top: 130px; left: 385px; }  /* 2 o'clock */
+#hr3  { top: 230px; left: 405px; }  /* 3 o'clock */
+#hr4  { top: 330px; left: 380px; }  /* 4 o'clock */
+#hr5  { top: 400px; left: 310px; }  /* 5 o'clock */
+#hr6  { top: 430px; left: 225px; }  /* 6 o'clock */
+#hr7  { top: 400px; left: 135px; }  /* 7 o'clock */
+#hr8  { top: 330px; left: 60px; }   /* 8 o'clock */
+#hr9  { top: 230px; left: 40px; }   /* 9 o'clock */
+#hr10 { top: 130px; left: 75px; }   /* 10 o'clock */
+#hr11 { top: 65px; left: 150px; }   /* 11 o'clock */
+
+/* Clock Hands */
+#centre {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border-radius: 50%;
+    top: 245px;
+    left: 245px;
+    z-index: 10;
+}
+
+#sec, #min, #hr {
+    position: absolute;
+    background-color: white;
+    transform-origin: bottom center;
+    transform: rotate(90deg); 
+    z-index: 5;
+}
+
+#sec {
+    height: 240px;
+    width: 2px;
+    top: 10px;
+    left: 249px;
+    background-color: red;
+}
+
+#min {
+    height: 200px;
+    width: 4px;
+    top: 50px;
+    left: 248px;
+}
+
+#hr {
+    height: 150px;
+    width: 6px;
+    top: 100px;
+    left: 246px;
+}
