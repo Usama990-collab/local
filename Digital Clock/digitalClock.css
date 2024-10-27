@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+}
+
+#main{
+    height: 300px;
+    width: 600px;
+    background-color: #8892b0;
+    border: 10px solid black;
+    border-radius: 15px;
+    
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    height: 30vh;
+    margin: 0;
+}
+
+.box{
+    height: 70px;
+    width: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#secbox{
+    align-self: flex-end;
+    position: relative;
+    left:100px;
+    font-size: 30px;
+}
+
+#hrbox, #colonbox, #minbox{
+    font-size: 70px;
+    font-weight: 700;
+    margin-right: 35px;
+    position: relative;
+    left: 40px;
+}
+
+#colonbox{
+    position: relative;
+    top: 40px;
+    font-size: 30px;
+}
